@@ -3,13 +3,13 @@ import HelloWorld from "./HelloWorld";
 import "./App.css";
 
 function App() {
-  return (
-    <>
-      <ErrorBoundary>
-        <HelloWorld />
-      </ErrorBoundary>
-    </>
-  );
+    return (
+        <>
+            <ErrorBoundary>
+                <HelloWorld />
+            </ErrorBoundary>
+        </>
+    );
 }
 
 export default App;
